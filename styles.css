@@ -1,0 +1,66 @@
+.container {
+    height: fit-content;
+    
+   
+    padding: 20px; 
+    background-color: #FFFFFF; 
+    border-radius: 15px; 
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.btn{
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+}
+
+.btn button{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: #000000;
+    transform: translateY(-3px);
+}
+
+
+.btn button:active{
+    transform: translateY(0);
+}
+
+.container>h1{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #021526;
+}
+
+.SubContainer1>p{
+    font-size: 5rem;
+    margin-top: 0px;
+    font-weight: 900;
+   color: #541212;
+}
+
+body{
+    background-color: #C8A1E0;
+}
+
+
+
